@@ -76,5 +76,5 @@ class Car{
 
 new Car({
     cont:$("tbody"),
-    url:"ctrl/select.php"
+    url:"http://127.0.0.1:3000/api/product?dataName=home&rule=&q=&start=1&count=100"
 })

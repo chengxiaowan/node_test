@@ -12,7 +12,7 @@ class Goods{
 		var that = this;
 
             $.ajax({
-                url:"http://127.0.0.1:3000/api/product?dataName=home&rule=&q=&start=1&count=100",
+                url:this.url,
                 success:function(res){
                     that.res = res;
                     that.display()
@@ -91,5 +91,5 @@ class Goods{
 
 new Goods({
 	cont:document.getElementById("cont"),
-	url:"http://127.0.0.1:3000/api/product?dataName=home&q=&start=1&count=50",
+	url:"http://47.102.198.104:3000/api/product?dataName=home&rule=&q=&start=1&count=100",
 });
