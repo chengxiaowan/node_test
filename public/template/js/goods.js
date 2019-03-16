@@ -31,10 +31,6 @@ class Goods{
 				<em>加入购物车</em>
 			</div>
 			`
-			console.log(this.res.page_data[i]._id)
-			console.log(this.res.page_data[i].detail.auth_icon)
-			console.log(this.res.page_data[i].detail.auth)
-			console.log(this.res.page_data[i].title)
 			
 		}
 		this.cont.innerHTML = str;
